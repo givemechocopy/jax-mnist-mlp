@@ -72,8 +72,8 @@ python main.py
 
 ## ⚙️ 설정값 (`config.py`)
 
-```
-python복사편집config = {
+```python
+config = {
     "key": jax.random.PRNGKey(0),
     "model_arch": [784, 256, 128, 10],
     "batch_size": 128,
